@@ -1,0 +1,8 @@
+html
+  head
+    link(rel='stylesheet', href='https://cdn.jsdelivr.net/npm/@tailwindcss/ui@latest/dist/tailwind-ui.min.css')
+  body
+    each record in records
+      p
+      | #{record.get('Day')}
+      | #{record.get('Hours')}
